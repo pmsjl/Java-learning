@@ -1826,3 +1826,5 @@ public class TreeSetTest2 {
 这里就是在构造时传入接口，然后重写方法，根据匿名内部类和lambda表达式，对形式为接口的内容进行简化，就是他看上去是传入接口，但实际后面是调用该接口的唯一抽象方法，这里用lambda后就会将方法先放到一个实例化该接口的类里面，然后调用这个方法。
 
 [![image.png](https://i.postimg.cc/x8b0t3k1/image.png)](https://postimg.cc/0KPRNmdT)
+
+未完待续
